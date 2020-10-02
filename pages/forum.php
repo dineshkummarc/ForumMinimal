@@ -4,9 +4,13 @@ include('../includes/utils.inc.php');
 start_page('forum');
 ?>
 
+<?php
+include '../includes/navbar.php';
+?>
+
 <div class="container">
     <div class="d-flex justify-content-center">
-        <div class="border rounded p-5 mt-3 w-75">
+        <div class="rounded p-5 mt-5 bg-light w-75">
             <h1>Se connecter</h1>
             <form action="login.php" method="post">
             <div class="form-group col-md-8">
@@ -25,7 +29,7 @@ start_page('forum');
     </div>
     <p class="text-center">Vous n'avez pas de compte ?<a class="" data-toggle="collapse" href="#collapseSubscribe" role="button" aria-expanded="false" aria-controls="collapseSubscribe"> Inscrivez-vous ici</a></p>
     <div class="collapse mb-3" id="collapseSubscribe">
-    <div class="card card-body p-5">
+    <div class="card card-body p-5 bg-light">
         <h1>S'inscrire</h1>
         <form action="subscribe.php" method="post">
             <div class="form-group col-md-8">
