@@ -21,6 +21,9 @@ include '../includes/navbar.php';
                 <label for="password_connexion">Mot de passe</label>
                 <input type="password" class="form-control" name="password_connexion" id="password_connexion" placeholder="mot de passe">
             </div>
+            <div class="mt-3">
+                <p>Mot de passe oublié ? <a href="#">Obtenir un nouveau mot de passe</a></p>
+            </div>
             <div class="d-flex justify-content-center">
                 <input type="submit" class="btn btn-primary" name="connect" value="connexion">
             </div>
