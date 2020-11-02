@@ -1,4 +1,5 @@
 <?php 
+/*modif bidon*/
     function check_empty_data($formData){
         $emptyData = [];
         foreach($formData as $key => $data){
